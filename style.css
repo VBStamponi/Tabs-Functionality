@@ -19,12 +19,17 @@ body {
 
 .tab-link{
     text-decoration: none;
+    padding: 6px 0px;
     color:#007bff;
     cursor: pointer;
 }
 
 .tab-link:focus {
     border-bottom: 2px solid black;
+}
+
+.tab-link:not(:focus) {
+    opacity: 50%;
 }
 
 .tab-content{display: none;
