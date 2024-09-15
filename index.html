@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabs Functionality</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div>
+        <nav>
+            <ul class="tabs">
+                <li><a href="#tab1" class="tab-link" data-tab="tab1">First Tab</a></li>
+                <li><a href="#tab2" class="tab-link" data-tab="tab2">Second Tab</a></li>
+                <li><a href="#tab3" class="tab-link" data-tab="tab3">Third Tab</a></li>
+                <li><a href="#tab4" class="tab-link" data-tab="tab4">Fourth Tab</a></li>
+            </ul>
+        </nav>
+        <div id="tab1" class="tab-content">
+            <h2>Content for First Tab</h2>
+            <p>This is the content of the first tab.</p>
+        </div>
+        <div id="tab2" class="tab-content">
+            <h2>Content for Second Tab</h2>
+            <p>This is the content of the second tab.</p>
+        </div>
+        <div id="tab3" class="tab-content">
+            <h2>Content for Third Tab</h2>
+            <p>This is the content of the third tab.</p>
+        </div>
+        <div id="tab4" class="tab-content">
+            <h2>Content for Fourth Tab</h2>
+            <p>This is the content of the fourth tab.</p>
+        </div>
+        <span>
+            Clicking each tab should hide the content of the other tab and show the content of the clicked tab. By default, enable the first tab.
+        </span>
+    </div>
+    <script src="tabs.js"></script>
+</body>    
+</html>
